@@ -1,9 +1,10 @@
 //class workers 
 
-export class worker{
+export class Worker{
     constructor(
         public readonly id : string,
         public name :string,
+        public employeeId :string,
         public position: string,
         public status : 'active'| 'inactive' | 'injured',
         private lastHeaRate?: number,

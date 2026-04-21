@@ -14,6 +14,6 @@ export class Incident {
   }
   
   public getResolved(){
-    return this.resolve;
+    return this.isSolved;
   }
 }
